@@ -557,6 +557,10 @@ li {
 }
 
 .top-bar-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -570,9 +574,14 @@ li {
 
 .top-bar-email:is(:hover, :focus, :active) {
   color: var(--brand-color-active);
+  fill: var(--brand-color-active);
 }
 
 .top-bar-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -581,7 +590,7 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .top-bar-phone:is(:hover, :focus, :active) {
