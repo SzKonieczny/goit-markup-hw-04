@@ -569,7 +569,7 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
-  margin-left: 371px;
+  margin-left: 370px;
 }
 
 .top-bar-email:is(:hover, :focus, :active) {
@@ -590,11 +590,12 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .top-bar-phone:is(:hover, :focus, :active) {
   color: var(--brand-color-active);
+  fill: var(--brand-color-active);
 }
 
 .what-we-do {
