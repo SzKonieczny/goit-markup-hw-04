@@ -42,6 +42,15 @@ li {
   list-style: none;
 }
 
+.antenna-bg {
+  box-sizing: border-box;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--brand-color-ourteam-bg);
+  border-radius: 4px;
+}
+
 .filter-button-list {
 }
 
@@ -416,6 +425,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color-headlines-font);
+  margin-bottom: 10px;
 }
 
 .our-advantages-list {
@@ -428,7 +438,7 @@ li {
 .advantages-list-item {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .order-button {
@@ -549,6 +559,12 @@ li {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px;
 }
 
 .section {
