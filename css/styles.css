@@ -259,6 +259,29 @@ li {
   width: fit-content;
 }
 
+.iconsbox {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: red;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 12px;
+  justify-content: center;
+  align-content: center;
+}
+
+/* .ooo {
+  margin: 0;
+  min-height: 44vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+} */
+
 .index-footer-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -321,7 +344,8 @@ li {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .menu-box {
@@ -501,7 +525,6 @@ li {
 .our-team-list-gap {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 
 .our-team-name {
@@ -573,6 +596,15 @@ li {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  margin-top: 16px;
 }
 
 .top-bar-email {
