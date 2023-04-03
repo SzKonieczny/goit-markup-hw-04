@@ -296,7 +296,7 @@ li {
   fill: var(--brand-color-iconfill);
 }
 
-.iconsbox:hover {
+.iconsbox:is(:hover, :focus) {
   background-color: var(--brand-color-order-button-background);
   fill: var(--brand-color-joun-us-icon-fill);
 }
@@ -545,6 +545,7 @@ li {
 
 .our-client-list {
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 
