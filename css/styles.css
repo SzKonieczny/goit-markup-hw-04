@@ -258,8 +258,14 @@ li {
 .li-box {
   width: 44px;
   height: 44px;
-  border: 1px solid red;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
   padding: 12px;
+  border-radius: 50%;
+}
+
+.li-box:is(:hover, :focus) {
+  background-color: var(--brand-color-order-button-background);
 }
 
 .footer-phone-link:is(:hover, :focus, :active) {
@@ -282,17 +288,6 @@ li {
   max-width: 696px;
   width: fit-content;
 }
-
-/* .iconsbox {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%; 
-  border-style: solid;
-  border-color: red;
-  justify-content: center;
-  align-content: center;
-} */
 
 .iconsbox {
   display: flex;
@@ -350,7 +345,7 @@ li {
 }
 
 .join-us-box {
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 .join-us-icon {
