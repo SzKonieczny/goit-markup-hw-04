@@ -16,6 +16,8 @@
   --brand-color-order-button-background: #2196f3;
   --brand-color-ourteam-bg: #f5f4fa;
   --brand-color-ourclient: #2196f3;
+  --brand-color-iconfill: #afb1b8;
+  --brand-color-joun-us-icon-fill: #ffffff;
   --brand-color-text-body: #212121;
 }
 * {
@@ -194,6 +196,7 @@ li {
   display: flex;
   gap: 9px;
   flex-direction: column;
+  width: fit-content;
 }
 
 .footer-address-street-name {
@@ -234,9 +237,29 @@ li {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  /* width: fit-content; */
 }
 .footer-padding {
   padding: 60px 0px;
+}
+
+.footer-box {
+  display: flex;
+  gap: 70px;
+}
+
+.ul-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.li-box {
+  width: 44px;
+  height: 44px;
+  border: 1px solid red;
+  padding: 12px;
 }
 
 .footer-phone-link:is(:hover, :focus, :active) {
@@ -260,18 +283,27 @@ li {
   width: fit-content;
 }
 
-.iconsbox {
+/* .iconsbox {
   display: flex;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
+  border-radius: 50%; 
   border-style: solid;
   border-color: red;
-  /* justify-content: center;
-  align-items: center; */
-  padding: 12px;
   justify-content: center;
   align-content: center;
+} */
+
+.iconsbox {
+  display: flex;
+  padding: 12px;
+  border-radius: 50%;
+  fill: var(--brand-color-iconfill);
+}
+
+.iconsbox:hover {
+  background-color: var(--brand-color-order-button-background);
+  fill: var(--brand-color-joun-us-icon-fill);
 }
 
 /* .ooo {
@@ -305,6 +337,25 @@ li {
   align-items: center;
   gap: 30px;
   padding: 200px 0px;
+}
+
+.join-us {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color-h1-text);
+}
+
+.join-us-box {
+  padding-top: 10px;
+}
+
+.join-us-icon {
+  fill: var(--brand-color-joun-us-icon-fill);
+  /* padding: 12px 12px; */
 }
 
 .logo-text {
@@ -634,6 +685,10 @@ li {
   gap: 10px;
   margin-bottom: 30px;
   margin-top: 16px;
+}
+
+.social-links-icon {
+  /* fill: var(--brand-color-iconfill); */
 }
 
 .top-bar-email {
