@@ -349,10 +349,10 @@ li {
   padding-top: 12px;
 }
 
-.join-us-icon {
+/* .join-us-icon {
   fill: var(--brand-color-joun-us-icon-fill);
-  /* padding: 12px 12px; */
-}
+  padding: 12px 12px;
+} */
 
 .logo-text {
   font-family: "Raleway";
