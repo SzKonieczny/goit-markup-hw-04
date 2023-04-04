@@ -262,6 +262,7 @@ li {
   display: flex;
   padding: 12px;
   border-radius: 50%;
+  fill: var(--brand-color-joun-us-icon-fill);
 }
 
 .li-box:is(:hover, :focus) {
@@ -642,6 +643,12 @@ li {
   background-color: var(--brand-color-img-background);
 }
 
+.project-containers-bg:is(:hover, :focus) {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+
 .project-description-text {
   font-style: normal;
   font-weight: 400;
@@ -701,6 +708,7 @@ li {
   text-decoration: none;
   cursor: pointer;
   margin-left: 370px;
+  fill: var(--brand-color-iconfill);
 }
 
 .top-bar-email:is(:hover, :focus, :active) {
